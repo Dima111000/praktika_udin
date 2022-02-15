@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./scss/fonts/styles.css">
+    <link rel="stylesheet" href="./fonts/style.css">
+    <title>Wezom</title>
+</head>
+<body>
+<div class="page page-color" id="pag">
+    <div class="wrapper" id="wrapp">
+        <header class="header" id="head">
+            <a href="/" class="logo"><img src="./img/svg/wezom_logo.svg" alt="Logo"></a>
+                <ul class="menu">
+                    <li class="menu-item" id="company"><a href="#" class="menu-link">О Компании</a></li>
+                    <li class="menu-item" id="delivery"><a href="#" class="menu-link">Доставка и оплата</a></li>
+                    <li class="menu-item" id="guarantee"><a href="#" class="menu-link">Гарантия</a></li>
+                </ul>
+                <ul class="menu">
+                    <li class="menu-item1" id="phone"><a href="#" class="menu-link">+38 068 000 00 00</a></li>
+                    <li class="menu-item1" id="ua"><a href="#" class="menu-link" >Ua</a></li>
+                    <li class="menu-item1" id="ru" style="margin-left: 31px;"><a href="#" class="menu-link" >Ru</a></li>
+                    <li class="menu-item1" id="enter"><a href="#" class="menu-link">Войти </a><span class="_icon-PersonalCab"></span></li>
+                </ul>
+                <div class="burger-menu">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class="menu-btn" for="menu-toggle" style="top: 25px; right: 40px;">
+                      <span></span>
+                    </label>
+                 
+                    <ul class="menubox">
+                            <li><a class="menu-itm" href="#">О Компании</a></li>
+                            <li><a class="menu-itm" href="#">Доставка и оплата</a></li>
+                            <li><a class="menu-itm" href="#">Гарантия</a></li>
+                            <li><a class="menu-itm" href="#">+38 068 000 00 00</a></li>
+                            <li><a class="menu-itm" href="#">Ua</a></li>
+                            <li><a class="menu-itm" href="#">Ru</a></li>
+                    </ul>
+                </div>
+                <div style="flex-basis: 100%; height: 0;"></div>
+                <div class="header-catalog">
+                        <button class="dropdown-menu_btn btn">
+                            <img src="./img/svg/cat.svg" alt="catalog" class="btn_itm" id="cat">
+                            <p class="btn_itm" id="catalog">каталог</p>
+                            <p class="btn_itm" id="category">Все категории</p>
+                            <div class="dropdown-content">
+                                <a href="#"><img src="./img/svg/turb.svg" alt="" class="photo"><p class="categ">Категория 1</p><span class="_icon-arrow-right"></span></a>
+                                <a href="#"><img src="./img/svg/cartridge.svg" alt="" class="photo"><p class="categ">Категория 2</p><span class="_icon-arrow-right"></span></a>
+                                <a href="#"><img src="./img/svg/geometry.svg" alt="" class="photo"><p class="categ">Категория 3</p><span class="_icon-arrow-right"></span></a>
+                                <a href="#"><img src="./img/svg/aktuator.svg" alt="" class="photo"><p class="categ">Категория 4</p><span class="_icon-arrow-right"></a>
+                                <a href="#"><img src="./img/svg/servoprivod.svg" alt="" class="photo"><p class="categ">Категория 5</p><span class="_icon-arrow-right"></a>
+                                <a href="#"><img src="./img/svg/prokladki.svg" alt="" class="photo"><p class="categ">Категория 6</p><span class="_icon-arrow-right"></a>
+                                <a href="#"><img src="./img/svg/zap4asti.svg" alt="" class="photo"><p class="categ">Категория 7</p><span class="_icon-arrow-right"></a>
+                                <a href="#"><img src="./img/svg/aktuator2.svg" alt="" class="photo"><p class="categ">Категория 8</p><span class="_icon-arrow-right"></a>
+                                <a href="#"><img src="./img/svg/body-tourbine.svg" alt="" class="photo"><p class="categ">Категория 9</p><span class="_icon-arrow-right"></a>
+                                <a href="#"><img src="./img/svg/zap4asti2.svg" alt="" class="photo"><p class="categ">Категория 10</p><span class="_icon-arrow-right"></a>
+                        </button>
+                </div>
+                <form action="#" class="search">
+                    <input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Поиск, например “тест”" class="search__input">
+                    <button class="search__button _icon-search"></button>
+                </form>
+                <button class="actions-header__balance _icon-balance"></button>
+                <button class="actions-header__like _icon-heart"></button>
+                <button class="actions-header__cart">
+                    <img src="./img/svg/shopping-cart.svg" alt="" class="shop-cart">
+                    <div class="actions-header__cart_number">3</div>
+                </button>
+
+        </header>
+    </div>
+</div>
+    <div class="page page-color1">
+        <div class="wrapper1">
+            <div class="content">
+                <div class="content-container">
+                    <p class="breadcrumbs">Test — Каталог — Группа — Тестовый товар для верстки</p>    
+                    <div class="large-photo">
+                        <img src="./img/png/photo1.png" alt="" class="large-photo__lrg">
+                    </div>
+                    <div id="photo_preview">
+                        <span class="_icon-arrow-up"></span>
+                        <img src="./img/png/photo1.png" alt="" class="small" id="photo-preview__first" style="width: 120px; height: 120px; margin-top: 0px; margin-left: 30px;">
+                        <img src="./img/png/photo2.png" alt="" class="small" id="photo-preview__second" style="width: 120px; height: 120px; margin-top: 0px; margin-left: 30px;">
+                        <img src="./img/png/photo3.png" alt="" class="small" id="photo-preview__third" style="width: 120px; height: 120px; margin-top: 0px; margin-left: 30px;">
+                        <img src="./img/png/photo4.png" alt="" class="small" id="photo-preview__fourth" style="width: 120px; height: 120px; margin-top: 0px; margin-left: 30px;">
+                        <span class="_icon-arrow-down"></span>
+                    </div>
+                    <div class="main-performance">
+                        <div class="main-performance__perfomance">
+                            <p class="performance__text">Характеристики <font color="#008000">Тестового товара для верстки</font></p>
+                            <p class="performance__text1">Тип</p><div class="performance__dashed1"></div><p class="performance__text2">Группа 1</p>
+                            <p class="performance__text3">Номер</p><div class="performance__dashed2"></div><p class="performance__text4">B410-210</p>
+                            <p class="performance__text5">Бренд</p><div class="performance__dashed3"></div><p class="performance__text6">Wezom</p>
+                            <a href="#" class="performance__text7">Все характеристики</a><a class="right" href="#"><span class="_icon-arrow-right"></span></a>
+                        </div> 
+                    </div>
+                    <div class="verified">
+                        <span class="_icon-verified"></span>
+                        <p class="verified__in-stock">В наличии</p>
+                        <div class="verified__five-star">
+                            <span class="_icon-star"></span>
+                            <span class="_icon-star"></span>
+                            <span class="_icon-star"></span>
+                            <span class="_icon-star"></span>
+                            <span class="_icon-star"></span>
+                        </div>
+                        <a href="#" class="number-star">12</a>
+                        <p class="verified__vendor-code">Артикул: 100500</p>
+                    </div>
+                    <div class="price">
+                        <div class="promotion">
+                            <span class="promotion__text">Акция</span>
+                        </div>
+                        <div class="discount-time">
+                            <span class="discount-time__text">До 30 июля скидка — 20% на все тестовые товары</span>
+                        </div>
+                        <div class="promotion-price">
+                            <span class="promotion-price__new-price">3 799<span class="_icon-ukraine-hryvna"></span></span>
+                            <span class="promotion-price__old-price">4 200 ₴</span><div class="line-price"></div></span>
+                        </div>
+                        <div class="v-korzinu">
+                            <span class="v-korzinu__korz">В корзину</span><span class="_icon-korzina"></span>
+                        </div>
+                        <button class="compare2 _icon-balance"></button>
+                        <button class="like2 _icon-heart"></button>
+                        <button class="phone2"><span class="_icon-phone"></span><span class="phone2__text">Купить в 1 клик</span></button>
+                    </div>
+
+                    <div class="stroke"></div>
+                    <button class="accordion"><span class="_icon-shield"></span><span class="accordion__text">Гарантия</span></button>
+                         <div class="panel">
+                             <p class="fish-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    <div class="stroke2"></div>
+                    <button class="accordion"><span class="_icon-check"></span><span class="accordion__text">Условия доставки</span></button>
+                         <div class="panel">
+                            <p class="fish-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    <div class="stroke3"></div>
+                    <button class="accordion"><span class="_icon-credit-card"></span><span class="accordion__text">Условия оплаты</span></button>
+                        <div class="panel">
+                             <p class="fish-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div> 
+                        <div class="stroke4"></div> 
+                    <div class="all-rewievs">
+                        <div class="all-rewievs__all">
+                            <h1 class="all-rewievs__all-rewievs">Отзвызы покупателей <span class="all-rewievs__all-count">12</span></h1>
+                            <a href="#" class="all-rewievs__all-right">Все отзывы <span class="_icon-arrow-right"></span></a>
+                        </div>
+                        <div class="all-rewievs__first">
+                            <span class="all-rewievs__first-user">Иванова Карина </span>
+                            <span class="all-rewievs__first-date">/ 21 мая 2021</span>
+                                <div class="all-rewievs__first-five_star">
+                                    <span class="_icon-star"></span>
+                                    <span class="_icon-star"></span>
+                                    <span class="_icon-star"></span>
+                                    <span class="_icon-star"></span>
+                                    <span class="_icon-starL"></span>
+                                </div>
+                                <div class="all-rewievs__first-review">
+                                    <p class="all-rewievs__first-review-text">
+                                        Покупка этого товара была спонтанной и незапланированной. В течении часа прочитала отзывы и остановилась на этой модельке. 
+                                        Изначально знала, что пластины не сьемные, но плюсов было больше. Спасибо за молниеносную отправку! 2 дня с момента заказа
+                                         и единственный нюанс-все таки сьемные пластины удобнее, наверное. Но по советам более опытных я ставила пергамент, но мыть все 
+                                        равно сложновато.
+                                    </p>
+                                </div>
+                        </div>
+                        <div class="stroke5"></div> 
+                        <div class="all-rewievs__second">
+                            <span class="all-rewievs__second-user">Рогозин Тимур </span>
+                            <span class="all-rewievs__second-date">/ 17 мая 2021</span>
+                                <div class="all-rewievs__second-five_star">
+                                    <span class="_icon-star"></span>
+                                    <span class="_icon-star"></span>
+                                    <span class="_icon-starL"></span>
+                                    <span class="_icon-starL"></span>
+                                    <span class="_icon-starL"></span>
+                                </div>
+                                <div class="all-rewievs__second-review">
+                                    <p class="all-rewievs__second-review-text">
+                                        Покупка этого товара была спонтанной и незапланированной. 
+                                        В течении часа прочитал отзывы и остановился на этой модельке. 
+                                        Спасибо за молниеносную отправку! 
+                                    </p>
+                                </div>
+                        </div>
+                        <button class="all-rewievs__more"><span class="all-rewievs__more-text">Показать еще</span></button>
+                    </form>   
+            </div>
+            <div class="phone-mask">
+                <h3 class="phone-mask__text">Нужна помощь в подборе товара? Мы перезваниваем !</h3>
+                <input type="text" class="phone-mask__input" name="user_phone" placeholder="+38(0XX) XX-XX-XXX">
+                <button class="phone-mask__send"><span class="phone-mask__send-text">Отправить</span></button>
+           </div>      
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="footer-container">
+        <span class="wezom-test">2021 © Wezom Test</span>
+        <span class="test-exercise">Тестовое \\ Wezom</span>
+    </div>
+</footer>
+
+
+<script src="./js/sticky.js"></script>
+<script src="./js/mask.js"></script>
+<script src="./js/preview.js"></script>
+<script src="./js/accorderon.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src=".js/jquery.maskedinput.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('.small').click(function(){
+    var image = $(this).attr('src');
+    $('.large-photo__lrg').attr('src',image);
+    });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+    $('.phone-mask__input').mask('+38(000)-00-000' );
+  });
+</script>
+    
+
+</body>
+</html>
