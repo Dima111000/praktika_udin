@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('fonts/icons.eot?omhsbf');
+  src:  url('fonts/icons.eot?omhsbf#iefix') format('embedded-opentype'),
+    url('fonts/icons.ttf?omhsbf') format('truetype'),
+    url('fonts/icons.woff?omhsbf') format('woff'),
+    url('fonts/icons.svg?omhsbf#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"], [class*=" _icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-burger:before {
+  content: "\e905";
+}
+._icon-star:before {
+  content: "\e900";
+}
+._icon-starL:before {
+  content: "\e901";
+}
+._icon-star1:before {
+  content: "\e902";
+}
+._icon-star2:before {
+  content: "\e903";
+}
+._icon-aktuator:before {
+  content: "\e904";
+}
+._icon-aktuator2:before {
+  content: "\e912";
+}
+._icon-arrow-down:before {
+  content: "\e91b";
+}
+._icon-arrow-right:before {
+  content: "\e91c";
+}
+._icon-arrow-up:before {
+  content: "\e91d";
+}
+._icon-balance:before {
+  content: "\e91e";
+}
+._icon-body-tourbine:before {
+  content: "\e91f";
+}
+._icon-cartridge:before {
+  content: "\e924";
+}
+._icon-check:before {
+  content: "\e92e";
+}
+._icon-close:before {
+  content: "\e92f";
+}
+._icon-credit-card:before {
+  content: "\e930";
+}
+._icon-geometry:before {
+  content: "\e931";
+}
+._icon-heart:before {
+  content: "\e94b";
+}
+._icon-korzina:before {
+  content: "\e94c";
+}
+._icon-PersonalCab:before {
+  content: "\e94d";
+}
+._icon-phone:before {
+  content: "\e94e";
+}
+._icon-prokladki:before {
+  content: "\e94f";
+}
+._icon-search:before {
+  content: "\e961";
+}
+._icon-servoprivod:before {
+  content: "\e963";
+}
+._icon-shield:before {
+  content: "\e973";
+}
+._icon-shopping-cart:before {
+  content: "\e974";
+}
+._icon-stroke:before {
+  content: "\e975";
+}
+._icon-turb:before {
+  content: "\e976";
+}
+._icon-ukraine-hryvna:before {
+  content: "\e97c";
+}
+._icon-verified:before {
+  content: "\e97d";
+}
+._icon-wezom_logo:before {
+  content: "\e97e";
+}
+._icon-zap4asti:before {
+  content: "\e97f";
+}
+._icon-zap4asti2:before {
+  content: "\e9ad";
+}
